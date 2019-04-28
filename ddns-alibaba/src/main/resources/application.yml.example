@@ -1,0 +1,20 @@
+server:
+  port: 34567
+
+ddns:
+  alibaba:
+    accessKeyId: example
+    accessSecret: example
+    domainName: example.com
+
+ip:
+  url: http://2019.ip138.com/ic.asp
+
+records:
+  record:
+    -
+      domainName: pan.example.com
+      type: A
+    -
+      domainName: ddns.example.com
+      type: A
